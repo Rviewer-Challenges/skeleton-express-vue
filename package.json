@@ -1,0 +1,7 @@
+{
+  "name": "express-vue-skeleton",
+  "version": "1.0.0",
+  "description": "Rviewer - Fullstack skeleton with Express & Vuew",
+  "author": "Rviewer Team (help@rviewer.io)",
+  "license": "MIT"
+}

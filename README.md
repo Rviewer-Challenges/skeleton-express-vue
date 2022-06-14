@@ -14,8 +14,8 @@ started developing an API. Check the [Getting Started](#getting-started) for ful
 ## Technologies
 
 * [Typescript 4.7](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-4.html)
-* [Vue 18.1](https://es.reactjs.org/)
-* [Express 4.17](https://expressjs.com/)
+* [Vue 3](https://vuejs.org/)
+* [Vitest](https://vitest.dev/)
 * [NPM](https://www.npmjs.com/)
 * [Supertest](https://github.com/visionmedia/supertest#readme)
 * [JEST](https://jestjs.io/es-ES/)

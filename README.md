@@ -68,7 +68,7 @@ with almost any 3rd party provider, framework, etc...
 ## Support
 
 If you are having problems or need anything else, please let us know by
-[raising a new issue](https://github.com/Rviewer-Challenges/skeleton-ts-express-react/issues/new/choose).
+[raising a new issue](https://github.com/Rviewer-Challenges/skeleton-express-vue/issues/new/choose).
 
 ## License
 

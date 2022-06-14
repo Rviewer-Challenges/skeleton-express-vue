@@ -22,4 +22,4 @@ services:
       - "3000:8080"
     volumes:
       - "${PWD}/webapp:/opt/app"
-    entrypoint: [ "npm", "start" ]
+    entrypoint: [ "npm", "run", "dev" ]

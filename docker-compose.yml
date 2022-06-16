@@ -13,13 +13,13 @@ services:
       - "8000:8000"
     volumes:
       - "${PWD}/api:/opt/app"
-    entrypoint: ["npm", "start"]
+    entrypoint: ["npm", "run", "start"]
 
   app:
     <<: *node
     container_name: rv-deliver-app-fullstack-webapp
     ports:
-      - "3000:8080"
+      - "3000:3000"
     volumes:
       - "${PWD}/webapp:/opt/app"
     entrypoint: [ "npm", "run", "dev" ]

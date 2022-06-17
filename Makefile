@@ -24,7 +24,7 @@ coverage: .test-api .test-webapp
 	docker-compose up -d app
 
 .test-api: .deps-api
-	docker-compose run --rm -v "${PWD}/api:/opt/app" -e CI=true node npm test
+	docker-compose run --rm -v "${PWD}/api:/opt/app" -e CI=true node npm run test
 
 .test-webapp: .deps-webapp
-	docker-compose run --rm -v "${PWD}/webapp:/opt/app" -e CI=true node npm test
+	docker-compose run --rm -v "${PWD}/webapp:/opt/app" -e CI=true node npm run test
